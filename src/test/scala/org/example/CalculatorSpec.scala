@@ -14,7 +14,7 @@ class CalculatorSpec extends FlatSpec with BeforeAndAfterEach with Inside with M
     val a = RANDOM.nextInt
     val b = RANDOM.nextInt
 
-    assert(Calculator.plus(a, b) == (a + b))
+    assert(Calculator.plus(a, b) == (a - b))
   }
 
   "Two integers" can "be subtracted correctly" in {
